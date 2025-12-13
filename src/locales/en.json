@@ -1,0 +1,83 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "next": "Next",
+    "back": "Back",
+    "retry": "Retry",
+    "settings": "Settings",
+    "language": "Language"
+  },
+  "selectFolder": {
+    "title": "GitHub Uploader",
+    "subtitle": "Deploy your local projects to GitHub with a single click. No Git installation required.",
+    "ctaBoxTitle": "Select a project folder to begin",
+    "browseBtn": "Browse Folder",
+    "footer": "v0.1.0 • Built with Tauri v2 & Rust"
+  },
+  "auth": {
+    "title": "Connect GitHub Account",
+    "subtitle": "We need permission to create and manage repositories on your behalf.",
+    "loginBtn": "Login with GitHub",
+    "connecting": "Connecting...",
+    "deviceCode": "Device Code",
+    "waiting": "Waiting for authorization...",
+    "instruction": "A browser window has opened. Enter the code above to authorize.",
+    "reopenLink": "Re-open Link",
+    "settingsTitle": "GitHub Client ID",
+    "settingsDesc": "Register a new OAuth App in GitHub Developer Settings.",
+    "useStandard": "Use Standard ID (GitHub CLI)",
+    "clientIdPlaceholder": "e.g. Ov23lik...",
+    "errorNoId": "Please enter a valid GitHub Client ID in settings.",
+    "errorExpired": "Token expired or access denied. Please try again."
+  },
+  "repoSelect": {
+    "title": "Destination Repository",
+    "createNew": "Create New",
+    "selectExisting": "Select Existing",
+    "repoNamePlaceholder": "e.g. my-awesome-project",
+    "repoNameLabel": "Repository Name",
+    "public": "Public",
+    "private": "Private",
+    "nextTemplates": "Next: Templates",
+    "searchPlaceholder": "Search your repositories...",
+    "noRepos": "No repositories found.",
+    "branchMismatchTitle": "Branch Mismatch",
+    "branchMismatchDesc": "The repository <strong>{{repo}}</strong> is not empty and uses <strong>{{branch}}</strong> as default.",
+    "pushToMain": "Push to 'main'",
+    "pushToMainDesc": "Create or update the 'main' branch.",
+    "pushToDefault": "Push to '{{branch}}'",
+    "pushToDefaultDesc": "Use the repository's default branch."
+  },
+  "templates": {
+    "title": "Project Templates",
+    "availableFiles": "Available Files",
+    "preview": "Preview: {{name}}",
+    "noContent": "Select a template to view content",
+    "statusNew": "NEW",
+    "statusModified": "MODIFIED",
+    "startUpload": "Start Upload"
+  },
+  "progress": {
+    "titleRunning": "Uploading Project...",
+    "titleSuccess": "Upload Complete!",
+    "titleError": "Upload Failed",
+    "consoleOutput": "Console Output",
+    "openGithub": "Open on GitHub",
+    "backHome": "Back to Home",
+    "log": {
+      "start": "🚀 Starting upload process...",
+      "target": "📂 Target: {{path}}",
+      "init": "⚙️ Initializing Git repository...",
+      "stage": "📦 Staging files...",
+      "commit": "💾 Committing changes...",
+      "createRepo": "🌐 Creating remote repository: {{name}}...",
+      "repoCreated": "✅ Repository created: {{url}}",
+      "useExisting": "🔗 Using existing repository: {{name}}",
+      "addRemote": "🔗 Adding remote origin: {{url}}",
+      "push": "⬆️ Pushing to GitHub (branch: {{branch}})...",
+      "success": "✨ Done! Successfully uploaded.",
+      "error": "❌ Error: {{error}}"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "cancel": "取消",
+    "next": "下一步",
+    "back": "返回",
+    "retry": "重试",
+    "settings": "设置",
+    "language": "语言"
+  },
+  "selectFolder": {
+    "title": "GitHub 上传助手",
+    "subtitle": "一键将本地项目部署到 GitHub，无需安装 Git 命令行。",
+    "ctaBoxTitle": "选择一个项目文件夹开始",
+    "browseBtn": "浏览文件夹",
+    "footer": "v0.1.0 • 基于 Tauri v2 & Rust 构建"
+  },
+  "auth": {
+    "title": "连接 GitHub 账户",
+    "subtitle": "我们需要权限来为您创建和管理仓库。",
+    "loginBtn": "使用 GitHub 登录",
+    "connecting": "连接中...",
+    "deviceCode": "设备代码",
+    "waiting": "等待授权中...",
+    "instruction": "浏览器窗口已打开，请在其中输入上方代码以完成授权。",
+    "reopenLink": "重新打开链接",
+    "settingsTitle": "GitHub Client ID",
+    "settingsDesc": "在 GitHub 开发者设置中注册一个新的 OAuth App。",
+    "useStandard": "使用标准 ID (GitHub CLI)",
+    "clientIdPlaceholder": "例如 Ov23lik...",
+    "errorNoId": "请在设置中输入有效的 GitHub Client ID。",
+    "errorExpired": "Token 已过期或被拒绝，请重试。"
+  },
+  "repoSelect": {
+    "title": "目标仓库",
+    "createNew": "创建新仓库",
+    "selectExisting": "选择已有仓库",
+    "repoNamePlaceholder": "例如 my-awesome-project",
+    "repoNameLabel": "仓库名称",
+    "public": "公开",
+    "private": "私有",
+    "nextTemplates": "下一步：模板",
+    "searchPlaceholder": "搜索您的仓库...",
+    "noRepos": "未找到仓库。",
+    "branchMismatchTitle": "分支冲突警告",
+    "branchMismatchDesc": "仓库 <strong>{{repo}}</strong> 非空且默认分支为 <strong>{{branch}}</strong>。",
+    "pushToMain": "推送到 'main'",
+    "pushToMainDesc": "创建或更新 'main' 分支。",
+    "pushToDefault": "推送到 '{{branch}}'",
+    "pushToDefaultDesc": "使用该仓库的默认分支。",
+    "noBranches": "未找到分支"
+  },
+  "templates": {
+    "title": "项目模板",
+    "availableFiles": "可用文件",
+    "preview": "预览：{{name}}",
+    "noContent": "选择一个模板以查看内容",
+    "statusNew": "新增",
+    "statusModified": "修改",
+    "startUpload": "开始上传"
+  },
+  "progress": {
+    "titleRunning": "正在上传项目...",
+    "titleSuccess": "上传完成！",
+    "titleError": "上传失败",
+    "consoleOutput": "控制台输出",
+    "openGithub": "在 GitHub 打开",
+    "backHome": "返回首页",
+    "log": {
+      "start": "🚀 开始上传流程...",
+      "target": "📂 目标路径: {{path}}",
+      "init": "⚙️ 初始化 Git 仓库...",
+      "stage": "📦 暂存文件 (Staging)...",
+      "commit": "💾 提交更改...",
+      "createRepo": "🌐 创建远程仓库: {{name}}...",
+      "repoCreated": "✅ 仓库已创建: {{url}}",
+      "useExisting": "🔗 使用已有仓库: {{name}}",
+      "addRemote": "🔗 添加远程 origin: {{url}}",
+      "push": "⬆️ 推送到 GitHub (分支: {{branch}})...",
+      "success": "✨ 完成！上传成功。",
+      "error": "❌ 错误: {{error}}"
+    }
+  }
+}
