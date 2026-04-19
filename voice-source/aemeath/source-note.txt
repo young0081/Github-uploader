@@ -1,0 +1,14 @@
+当前样本文件：`aemeath_cn_seed.mp3`
+
+制作方式：
+- 从两个中文公开视频页面提取音频流
+- 各截取约 5 秒有效片段
+- 合成为单声道 10 秒 MP3
+
+来源页面：
+- `https://www.bilibili.com/video/BV1WAcMz7E87/`
+- `https://www.bilibili.com/video/BV1Zscqz9Er8/`
+
+说明：
+- 这是“先能用起来”的中文样本，不是完全无 BGM 的官方干声
+- 如果后续拿到更干净的中文单句，可以直接覆盖同一路径文件以保持 URL 不变
